@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { styled, keyframes } from 'goober';
 
+import { styled, keyframes } from '../core/styles';
 import { Toast, ToastPosition, resolveValue, Renderable } from '../core/types';
 import { ToastIcon } from './toast-icon';
 import { prefersReducedMotion } from '../core/utils';
