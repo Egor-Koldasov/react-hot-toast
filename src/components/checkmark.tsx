@@ -1,4 +1,4 @@
-import { styled, keyframes } from 'goober';
+import { styled, keyframes } from '../core/styles';
 
 const circleAnimation = keyframes`
 from {

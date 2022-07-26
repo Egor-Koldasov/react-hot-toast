@@ -1,5 +1,6 @@
-import { css, setup } from 'goober';
+import { setup } from 'goober';
 import * as React from 'react';
+import { css } from '../core/styles';
 import { resolveValue, ToasterProps, ToastPosition } from '../core/types';
 import { useToaster } from '../core/use-toaster';
 import { createRectRef, prefersReducedMotion } from '../core/utils';

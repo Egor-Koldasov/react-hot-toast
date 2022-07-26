@@ -16,6 +16,7 @@ export type {
 export { resolveValue } from '../core/types';
 export { useToaster } from '../core/use-toaster';
 export { useStore as useToasterStore } from '../core/store';
+export { setCssTarget } from '../core/styles';
 
 export { toast };
 export default toast;

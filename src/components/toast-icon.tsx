@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { styled, keyframes } from 'goober';
 
+import { styled, keyframes } from '../core/styles';
 import { Toast } from '../core/types';
 import { ErrorIcon, ErrorTheme } from './error';
 import { LoaderIcon, LoaderTheme } from './loader';
